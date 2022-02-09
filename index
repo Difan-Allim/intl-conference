@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DonNTU</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type='text/css' media='screen' href="Css/reset.css">
+    <link rel="stylesheet" type='text/css' media='screen' href="Font/montserrat.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='Css/style.css'>
+
+
+    <script src='Js/main.js'></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="plaha">
+            <div class="wrapper_plah">
+                <a href="index.html" class="logo"><img src="Img/1920/logo.svg" alt=""></a>
+                <div class="right_hea">
+                    <nav>
+                        <ul class="mnu_top">
+                            <li><a href="index.html" class="header_link">Главная</a></li>
+                            <li><a href="index.html" class="header_link">Прием докладов <b></b></a></li>
+                            <li><a href="index.html" class="header_link">Инструкция <b></b></a></li>
+                            <li><a href="index.html" class="header_link">Новости <b></b></a></li>
+                            <li><a href="index.html" class="header_link">Контакты <b></b></a></li>
+                            <li><a href="index.html" class="header_link">Медиафайлы <b></b></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper_head">
+            <p class="text_zag">
+                ГОУВПО «Донецкий национальный технический университет»<br>
+                Факультет «Интеллектуальных систем и программирования»<br>
+                Кафедра «Программная инженерия» им. Л.П. Фельдмана
+            </p>
+            <p class="text_zag1">
+                Международная<br> научно-практическая конференция
+            </p>
+            <p class="text_zag2">
+                Программная инженерия: методы и технологии разработки информационно-вычислительных систем ПИИВС
+            </p>
+            <div class="buttom_flex">
+                <button class="buttom_head"><a href="#">Регестрация</a></button>
+                <button class="buttom_head"><a href="#">Войти</a></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="content_boxOne">
+        <div class="box">
+            <img src="Img/1920/box1.svg" alt="" class="box_imgInfo">
+            <div class="text_infoBox">
+                <p class="btz">О конференции</p>
+                <p class="btt">Уважаемые коллеги!</p>
+                <p class="bti">Приглашаем Вас принять участие в III Международной научно-практической конференции
+                    "Программная инженерия: методы и технологии разработки информационно-вычислительных систем"
+                    (ПИИВС-2020), которая состоится c 25 по 26 ноября 2020 г. на базе кафедры программной инженерии
+                    факультета компьютерных наук и технологий Государственного образовательного учреждения высшего
+                    профессионального образования «Донецкий национальный технический университет», г.Донецк, Донецкая
+                    Народная Республика.</p>
+                <a href="index.html" class="arrow">⟶</a>
+                <!-- <a href="index.html"><img src="Img/1920/Arrow.svg" alt="" class="arrow"> </a> -->
+            </div>
+        </div>
+        <div class="flex_boximg">
+            <div class="boximg">
+                <img src="Img/1920/Doc.svg" alt="">
+                <p class="obz">Приглашение</p>
+                <p class="obt">Приглашаем принять участие
+                    в III Международной научно - практической конференции, которая пройдет в период с 25 по 26 ноября
+                    2020 г.
+                </p>
+            </div>
+            <div class="boximg">
+                <img src="Img/1920/DocP.svg" alt="">
+                <p class="obz">Прием докладов</p>
+                <p class="obt">Для отправки доклада, нужно произвести регистрацию на сайте</p>
+            </div>
+            <div class="boximg">
+                <img src="Img/1920/DocH.svg" alt="">
+                <p class="obz">Шаблон доклада</p>
+                <p class="obt">Полное объяснение и руководство по оформлению докладов (статей) для научно-практической
+                    конференции
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content_boxtwo">
+        <div class="boxtwo">
+            <p class="b2tz">Новости о конференции</p>
+            <div class="news">
+                <div class="ib">
+                    <div class="data">
+                        <p>25.11.2020</p>
+                    </div>
+                    <div class="ibz">
+                        <p class="zi">Сборники научных трудов ПИИВС-2020</p>
+                        <div class="content_inf">
+                            <p class="text_inf">Уважаемые участники!<br>
+                                Для вас доступны сборники III международной научно-практической конференции ПИИВС-2020.
+                                Сборники находятся на правой информационной панели нашего сайта "архив сборников
+                                конференции ПИИВС" или доступны по ссылкам ПИИВС-2020 и ПИИВС-2020 студ секции.
+                                <br><br>
+                                Обратите внимание, что научный сборник ПИИВС-2020 на текущий момент, подготовлен в
+                                предварительном виде.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ib">
+                    <div class="data">
+                        <p>25.11.2020</p>
+                    </div>
+                    <div class="ibz">
+                        <p class="zi">Изменилась программа</p>
+                        <div class="content_inf">
+                            <p class="text_inf">В программе конференции произошли изменения: был добавлен доклад
+                                <b>"АНАЛОГИЯ МЕЖДУ ТРАНСПОРТНЫМ И СЕТЕВЫМ ТРАФИКОМ"</b>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ib">
+                    <div class="data">
+                        <p>24.11.2020</p>
+                    </div>
+                    <div class="ibz">
+                        <p class="zi">Сборники научных трудов ПИИВС-2020</p>
+                        <div class="content_inf">
+                            <p class="text_inf">Уважаемые участники конференции! <br>
+                                В среду, 25.11.20, в 11-00, начинается работа 3-й международной научной конференции
+                                ПИИВС-2020.
+                                Работа конференции будет проходить в дистанционном режиме с использованием
+                                интернет-конференции Zoom.
+                                <br> <br>
+                                Программа конференции доступна <a href="">по ссылке <img
+                                        src="Img/1920/Arrow_inf.svg" alt="" style="display: revert;"> </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="padding-bottom: 115px;">
+                <button class="btn_inf">
+                    <a href="">Перейти в новостную ленту</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="content_boxthree">
+        <div class="boxthree">
+            <div class="text_infoBox3">
+                <p class="b3tz">Архив сборников конференции ПИИВС</p>
+                <p class="b3ti">Текст для архива сборников, Текст для архива сборников, Текст для архива сборников,
+                    Текст для архива сборников, Текст для архива сборников, Текст для архива сборников, Текст для
+                    архива
+                    сборников, Текст для архива сборников, Текст для архива сборников, Текст для архива сборников,
+                    Текст
+                    для архива сборников, Текст для архива сборников, Текст для архива сборников,</p>
+                <a href="index.html" class="arrow">⟶</a>
+            </div>
+            <img src="Img/1920/box3.svg" alt="" class="boxthree_imgInfo">
+        </div>
+        <div class="box_org">
+            <p class="b3tz2">Организационный комитет</p>
+            <div class="box_orgcom">
+                <div class="orgcom">
+                    <a href="index.html"><img src="Img/1920/org1.svg" alt=""></a>
+                    <p class="orgdolj">Председатель:</p>
+                    <p class="orginf">Аноприенко А.Я., к.т.н., проф., ректор ДОННТУ</p>
+                </div>
+                <div class="orgcom">
+                    <a href="index.html"><img src="Img/1920/org2.svg" alt=""></a>
+                    <p class="orgdolj">Заместитель председателя:</p>
+                    <p class="orginf">Борщевский С.В., д.т.н., проф., проректор по научной работе</p>
+                </div>
+                <div class="orgcom">
+                    <a href="index.html"><img src="Img/1920/org3.svg" alt=""></a>
+                    <p class="orgdolj">Заместитель председателя:</p>
+                    <p class="orginf">Николаенко Д.В., к.т.н., декан факультета интеллектуальных систем и программирования</p>
+                </div>
+                <div class="orgcom">
+                    <a href="index.html"><img src="Img/1920/org4.svg" alt=""></a>
+                    <p class="orgdolj">Заместители председателя:</p>
+                    <p class="orginf">Кожухов И.Б., д.ф.-м.н., проф. НИУ МИЭТ, г.Москва</p>
+                </div>
+                <div class="orgcom">
+                    <a href="index.html"><img src="Img/1920/org5.svg" alt=""></a>
+                    <p class="orgdolj">Заместители председателя:</p>
+                    <p class="orginf">Зори С.А., д.т.н., зав. кафедрой программной инженерии им. Л.П. Фельдмана</p>
+                </div>
+                <div class="orgcom">
+                    <a href="index.html"><img src="Img/1920/org6.svg" alt=""></a>
+                    <p class="orgdolj">Заместители председателя:</p>
+                    <p class="orginf">Мальчева Р.В., к.т.н., зам. декана по научной работе</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content_boxfour">
+        <div class="boxfour">
+            <div class="bloc_S">
+                <p class="b4tz">Члены оргкомитета:</p>
+                <div id="element_o">
+                    <div class="overflow">
+                    <p class="b4tt">
+                        Федяев О.И., к.т.н., проф. кафедры программной инженерии им. Л.П. Фельдмана<br>
+                        Григорьев А.В., к.т.н., проф. кафедры программной инженерии им. Л.П. Фельдмана<br>
+                        Криводубский О.А., д.т.н., проф. кафедры программной инженерии им. Л.П. Фельдмана<br>
+                        Коломойцева И.А., ст. преподаватель кафедры программной инженерии им. Л.П. Фельдмана<br>
+                        Чернышова А.В., ст. преподаватель кафедры программной инженерии им. Л.П. Фельдмана<br>
+                        Серёженко О.А., ассистент кафедры программной инженерии им. Л.П. Фельдмана<br>
+                        Филипишин Д.А., ассистент кафедры программной инженерии им. Л.П. Фельдмана<br>
+                        Артёменко О.Г., ассистент кафедры программной инженерии им. Л.П. Фельдмана<br>
+                        Соломченко Н.Н., начальник отдела технических средств обучения</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div class="bloc_S">
+                <p class="b4tz">Программный комитет конференции</p>
+                <div id="element_o">
+                    <div class="overflow">
+                    <p class="b4tt">Аноприенко А.Я., к.т.н., проф., зав. каф. компьютерной инженерии ДонНТУ<br>
+                        Гольцев А.С., д.ф.-м.н., проф., зав каф. прикладной механики и компьютерных технологий ДонНУ<br>
+                        Григорьев А.В., к.т.н., проф. каф. программной инженерии ДонНТУ<br>
+                        Завадская Т.В., к.т.н., доц. каф. компьютерной инженерии<br>
+                        Зори С.А., д.т.н., зав. каф. программной инженерии ДонНТУ<br>
+                        Карабчевский В.В., к.т.н., зав. каф. компьютерного моделирования и дизайна ДонНТУ<br>
+                        Кожухов И.Б. д.ф.-м.н., проф. каф. «Высшая математика-1», МИЭТ (Москва)<br>
+                        Криводубский О.А., к.т.н., доц. кафедры программной инженерии<br>
+                        Орлов Ю.К., к.т.н. доц. каф. Искусственного интеллекта и системного анализа ДонНТУ<br>
+                        Павлыш В.Н., д.т.н., проф., зав. каф. прикладной математики ДонНТУ<br>
+                        Родригес З.Р.А., к.т.н., доц. департамента программной инженерии ВШЭ (Москва)<br>
+                        Секирин А.И., к.т.н., зав. каф. автоматизированных систем управления ДонНТУ<br>
+                        Толстых В.К., д.ф.-м.н., проф., каф. компьютерных технологий ДонНУ<br>
+                        Федяев О.И., к.т.н., проф. каф. программной инженерии ДонНТУ<br>
+                        Шелепов В.Ю., д.ф.-м.н., проф., ГУ «Институт проблем искусственного интеллекта» (Донецк)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content_boxfive">
+        <div class="boxfive">
+            <h1>Партнёры конференции</h1>
+            <div class="img_part">
+                <a href="index.html"><img src="Img/1920/Conference Partners1.svg" alt=""></a>
+                <a href="index.html"><img src="Img/1920/Conference Partners2.svg" alt=""></a>
+                <a href="index.html"><img src="Img/1920/Conference Partners3.svg" alt=""></a>
+                <a href="index.html"><img src="Img/1920/Conference Partners4.svg" alt=""></a>
+                <a href="index.html"><img src="Img/1920/Conference Partners5.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="box_map">
+        <div class="map">
+            <div class="block_contact">
+                <div class="wrapper_map">
+                    <p class="bmz">Место проведения</p>
+                    <div class="trag_map">
+                        <img src="Img/1920/targ_map.svg" alt="">
+                        <p>83001, г. Донецк, ул. Артема, 58,
+                            ГОУВПО «ДонНТУ»,
+                            ФКНТ, 5 учебный корпус,
+                            кафедра "ПИ", ком. 425.</p>
+                    </div>
+                    <div class="telepfon_map">
+                        <img src="Img/1920/Telefon_map.svg" alt="">
+                        <p>+38 (062) 301-07-09</p>
+                    </div>
+                    <div class="poshta_map">
+                        <img src="Img/1920/Poshta_map.svg" alt="">
+                        <a href="https://donntu.org/">donntu.info@mail.ru</a>
+                    </div>
+                    <button class="btn_k"><a href="#">Контакты</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="wrapper_foot">
+
+            <div class="footer_top">
+                <div class="cont1">
+                    <p class="tf">Организатор конференции:
+                        ПИИВС (с) кафедра Программная инженерия </p>
+                    <p>Сайт кафедры <a href="http://pi.donntu.org/">http://pi.donntu.org/ </a> </p>
+                    <div class="sch"></div>
+                </div>
+                <div class="cont2">
+                    <nav>
+                        <ul class="mnu_bottom">
+                            <li><a href="index.html" class="header_link">Главная</a></li>
+                            <li><a href="index.html" class="header_link">Прием докладов</a></li>
+                            <li><a href="index.html" class="header_link">Инструкция</a></li>
+                            <li><a href="index.html" class="header_link">Новости</a></li>
+                            <li><a href="index.html" class="header_link">Контакты</a></li>
+                            <li><a href="index.html" class="header_link">Медиафайлы</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="cont3">
+                    <p class="text_cont3">Поддержка сайта конференции </p>
+                    <a href="https://donntu.org/">https://donntu.org/</a>
+                    <div class="targ">
+                        <img src="Img/1920/Map.svg" alt="">
+                        <p>83001, ДНР, г. Донецк, ул. Артема, 58,
+                            ГОУВПО «ДонНТУ»,
+                            1 учебный корпус</p>
+                    </div>
+                    <div class="telepfon">
+                        <img src="Img/1920/telepfon.svg" alt="">
+                        <p>+38 (062) 301-07-09</p>
+                    </div>
+                    <div class="poshta">
+                        <img src="Img/1920/poshta.svg" alt="">
+                        <a href="https://donntu.org/">donntu.info@mail.ru</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="bottom_tag">
+            <p>Разработано dimbrightwebsite.ru</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

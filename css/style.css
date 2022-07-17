@@ -8,9 +8,19 @@
     --color-grey: #515151;
 }
 
-#header {
-    height: 90px;
-    background-color: var(--color-navy);
+a {
+    color: var(--color-white);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color .4s ease;
+}
+p {
+    color: var(--color-white);
+    text-decoration: none;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-align: center;
 }
 
 .wrapper {
@@ -22,8 +32,6 @@
 @media screen and (max-width: 1110px){
     .wrapper {width: 95%;}
 }
-
-
 
 .text-bold {
     font-weight: bold;
@@ -71,104 +79,6 @@
     .text-grey {font-size: 14px;}
     
     .text-blue {font-size: 14px;}
-}
-
-.text-big {
-    font-size: 24px;
-}
-
-.text-bigbig {
-    font-size: 36px;
-}
-
-.text-bigbigbig {
-    font-size: 48px;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.text-spacing {
-    letter-spacing: 10px;
-}
-
-.button {
-    width: 200px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-blue);
-    border-radius: 10px;
-}
-
-.button-wide-mod {
-    width: 300px;
-}
-
-.button-transparent {
-    background-color: rgba(0, 0, 0, 0);
-    border: white solid 1px;
-}
-
-.button:hover {
-    background-color: var(--color-bluehover);
-}
-
-.button-transparent:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    border: white solid 1px;
-}
-
-.header__container {
-    display: flex;
-    height: 100%;
-}
-
-.header__col {
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-}
-
-.header__col:first-child {
-    flex-grow: 4;
-}
-
-.photo-cover {
-    background-image: url("../static/images/1920/fon.svg");
-    height: 600px;
-}
-
-.photo-cover__container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-.photo-cover__row {
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.photo-cover__row p {
-    text-align: center;
-}
-
-.photo-cover__big-text {
-    font-size: 52px;
-    font-weight: bold;
-}
-
-.photo-cover__col {
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
 }
 
 .about {

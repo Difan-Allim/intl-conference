@@ -12,47 +12,45 @@
     <title>Международная научно-практическая конференция</title>
 </head>
 <body>
-    <div id="header">
-        <div class="wrapper">
-            <div class="header__container">
-                <div class="header__col">
-                    <a href="#">
-                        <img src="static/images/1920/logo.svg">
-                    </a>
-                </div>
-                <div class="header__col">
-                    <a href="#">
-                        <p class="header__txt text-white">Главная</p>
-                    </a>
-                </div>
-                <div class="header__col">
-                    <a href="#">
-                        <p class="header__txt text-white">Приём докладов</p>
-                    </a>
-                </div>
-                <div class="header__col">
-                    <a href="#">
-                        <p class="header__txt text-white">Инструкции</p>
-                    </a>
-                </div>
-                <div class="header__col">
-                    <a href="#">
-                        <p class="header__txt text-white">Новости</p>
-                    </a>
-                </div>
-                <div class="header__col">
-                    <a href="#">
-                        <p class="header__txt text-white">Контакты</p>
-                    </a>
-                </div>
-                <div class="header__col">
-                    <a href="#">
-                        <p class="header__txt text-white">Медиафайлы</p>
-                    </a>
+    <header>
+        <div class="header__up__container">
+            <div class="wrapper">
+                <div class="header__nav">
+                    <a href="#" class="header__logo"><img src="static/images/1920/logo.svg"></a>
+                    <nav class="header__menu">
+                        <ul class="menu">
+                            <li class="menu__item"><a href="#" class="text-white">Главная</a></li>
+                            <li class="menu__item"><a href="#" class="text-white">Прием докладов<b></b></a></li>
+                            <li class="menu__item"><a href="#" class="text-white">Оформление<b></b></a></li>
+                            <li class="menu__item"><a href="#" class="text-white">Новости<b></b></a></li>
+                            <li class="menu__item"><a href="#" class="text-white">Оргкомитет<b></b></a></li>
+                            <li class="menu__item"><a href="#" class="text-white">Контакты<b></b></a></li>
+                            <li class="menu__item"><a href="#" class="text-white">Фотогалерея<b></b></a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>
-    </div>
+        <div class="wrapper">
+            <div class="header__down__container">
+                <p class="text-white">
+                    ГОУВПО «Донецкий национальный технический университет»<br>
+                    Факультет «Интеллектуальных систем и программирования»<br>
+                    Кафедра «Программная инженерия» им. Л.П. Фельдмана
+                </p>
+                <h1 class="text-white">
+                    Международная<br> научно-практическая конференция
+                </h1>
+                <h6 class="text-white">
+                    Программная инженерия: методы и технологии разработки информационно-вычислительных систем ПИИВС
+                </h6>
+                <div class="buttom_flex">
+                    <button class="buttom_head"><a href="#">Регестрация</a></button>
+                    <button class="buttom_head"><a href="#">Войти</a></button>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <div class="photo-cover">
         <div class="wrapper">
@@ -311,7 +309,7 @@
                     <div class="footer__col__counter"></div>
                 </div>
                 <div class="footer__col">
-                    <span class="footer__menu">
+                    <nav class="footer__menu">
                         <ul>
                             <li><a href="#" class="text-white">Главная</a></li>
                             <li><a href="#" class="text-white">Прием докладов</a></li>
@@ -321,7 +319,7 @@
                             <li><a href="#" class="text-white">Контакты</a></li>
                             <li><a href="#" class="text-white">Фотогалерея</a></li>
                         </ul>
-                    </span>
+                    </nav>
                 </div>
                 <div class="footer__col">
                     <p class="text-white">Поддержка сайта конференции </p>

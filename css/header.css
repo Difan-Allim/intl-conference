@@ -1,0 +1,64 @@
+header{
+    width: 100%; 
+    background: url("../static/images/1920/fon.svg");
+    height: 1000px;
+}
+.header__up__container{
+    position: fixed;
+    width: 100%;
+    background-color: #070C20;
+    opacity: 0.9;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    padding: 5px 0px 5px 5px;
+}
+.menu{
+    display: flex;
+}
+.menu__item {
+    display: inline-block;
+    margin-right: 30px;
+}
+.menu__item a:hover{
+    transition: color .4s ease;
+    color: goldenrod;
+}
+.menu__item a b {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+.header__down__container p{
+    margin: 0 auto;
+    padding-top: 145px;
+    font-size: 20px;
+    max-width: 780px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+}
+.header__down__container h1{
+    margin: 0 auto;
+    margin-top: 70px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+.header__down__container h6{
+    margin: 0 auto;
+    max-width: 670px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    text-align: center;
+}

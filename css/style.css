@@ -1,8 +1,11 @@
 :root {
     --color-navy: #070C20E5;
     --color-blue: #2E4E70;
+    --color-bluehover: #1e334a;
+    --color-lightblue: #6C84D8;
     --color-white: #FFFFFF;
     --color-dark: #000000;
+    --color-grey: #515151;
 }
 
 #header {
@@ -11,10 +14,16 @@
 }
 
 .wrapper {
-    width: 1100px;
+    width: 1110px;
     height: 100%;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1110px){
+    .wrapper {width: 95%;}
+}
+
+
 
 .text-bold {
     font-weight: bold;
@@ -30,6 +39,38 @@
     font-family: sans-serif;
     font-size: 18px;
     color: var(--color-white);
+}
+
+.text-grey {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: var(--color-grey);
+}
+
+.text-blue {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: var(--color-lightblue);
+}
+
+@media screen and (max-width: 1024px){
+    .text-black {font-size: 16px;}
+    
+    .text-white {font-size: 16px;}
+    
+    .text-grey {font-size: 16px;}
+    
+    .text-blue {font-size: 16px;}
+}
+
+@media screen and (max-width: 768px){
+    .text-black {font-size: 14px;}
+    
+    .text-white {font-size: 14px;}
+    
+    .text-grey {font-size: 14px;}
+    
+    .text-blue {font-size: 14px;}
 }
 
 .text-big {
@@ -48,6 +89,38 @@
     text-align: center;
 }
 
+.text-spacing {
+    letter-spacing: 10px;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-blue);
+    border-radius: 10px;
+}
+
+.button-wide-mod {
+    width: 300px;
+}
+
+.button-transparent {
+    background-color: rgba(0, 0, 0, 0);
+    border: white solid 1px;
+}
+
+.button:hover {
+    background-color: var(--color-bluehover);
+}
+
+.button-transparent:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: white solid 1px;
+}
+
 .header__container {
     display: flex;
     height: 100%;
@@ -64,7 +137,7 @@
 }
 
 .photo-cover {
-    background-color: black;
+    background-image: url("../static/images/1920/fon.svg");
     height: 600px;
 }
 
@@ -88,7 +161,6 @@
 .photo-cover__big-text {
     font-size: 52px;
     font-weight: bold;
-    letter-spacing: 10px;
 }
 
 .photo-cover__col {
@@ -97,16 +169,6 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-}
-
-.photo-cover__button {
-    width: 200px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-blue);
-    border-radius: 10px;
 }
 
 .about {
@@ -137,6 +199,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    width: 33.333%;
 }
 
 .about__col__row {
@@ -146,8 +209,148 @@
     align-items: center;
 }
 
-#about__col__photo {
-    width: 400px;
-    height: 500px;
-    background-color: black;
+.news {
+    height: 890px;
+    background-color: var(--color-dark);
+}
+
+.news__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.news__row {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news__col {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.partners {
+    height: 400px;
+}
+
+.partners__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.partners__row {
+    padding: 20px 0;
+}
+
+.partners__row img {
+    transform: scale(0.8);
+    margin: 0 10px;
+}
+
+.archive {
+    height: 1000px;
+}
+
+.archive__container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.archive__row {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.archive__col {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.archive__row__col {
+    flex-grow: 1;
+    padding: 0 20px 0 20px;
+    display: inline-flex;
+}
+
+.archive__person {
+    width: 16.667%;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.place {
+    background-image: url("../static/images/1920/mapp.svg");
+    width: 100%;
+    height: 100%;
+}
+
+.place__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.place__row {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.place__row:nth-child(2) {
+    width: 500px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
 }

@@ -1,0 +1,153 @@
+:root {
+    --color-navy: #070C20E5;
+    --color-blue: #2E4E70;
+    --color-white: #FFFFFF;
+    --color-dark: #000000;
+}
+
+#header {
+    height: 90px;
+    background-color: var(--color-navy);
+}
+
+.wrapper {
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-black {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: var(--color-black);
+}
+
+.text-white {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: var(--color-white);
+}
+
+.text-big {
+    font-size: 24px;
+}
+
+.text-bigbig {
+    font-size: 36px;
+}
+
+.text-bigbigbig {
+    font-size: 48px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.header__container {
+    display: flex;
+    height: 100%;
+}
+
+.header__col {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.header__col:first-child {
+    flex-grow: 4;
+}
+
+.photo-cover {
+    background-color: black;
+    height: 600px;
+}
+
+.photo-cover__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.photo-cover__row {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-cover__row p {
+    text-align: center;
+}
+
+.photo-cover__big-text {
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.photo-cover__col {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.photo-cover__button {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-blue);
+    border-radius: 10px;
+}
+
+.about {
+    /* background-color: orange; */
+    height: 1000px;
+}
+
+.about__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.about__row {
+    flex-grow: 1;
+    display: flex;
+    height: 100%;
+}
+
+.about__row:first-child {
+    flex-grow: 2;
+}
+
+.about__col {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.about__col__row {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about__col__photo {
+    width: 400px;
+    height: 500px;
+    background-color: black;
+}

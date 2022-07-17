@@ -1,2 +1,2 @@
-# -onference
+# intl-conference
 Сonference website

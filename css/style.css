@@ -81,11 +81,6 @@ p {
     .text-blue {font-size: 14px;}
 }
 
-.about {
-    /* background-color: orange; */
-    height: 1000px;
-}
-
 .about__container {
     display: flex;
     flex-direction: column;
@@ -98,6 +93,16 @@ p {
     height: 100%;
 }
 
+.arrow{
+    text-align: left;
+    font-size: 60px;
+    width: 70px;
+    color: black;
+}
+.arrow:hover{
+    color: fuchsia;
+}
+
 .about__row:first-child {
     flex-grow: 2;
 }
@@ -108,7 +113,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding-top: 150px;
     width: 33.333%;
 }
 

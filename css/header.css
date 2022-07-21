@@ -1,6 +1,7 @@
 header{
     width: 100%; 
     background: url("../static/images/1920/fon.svg");
+    background-size: cover;
 }
 .header__up__container{
     position: fixed;
@@ -14,7 +15,7 @@ header{
     align-items: center;
 }
 .header__logo{
-    padding: 5px 0px 5px 5px;
+    padding: 5px 0px 5px 0px;
 }
 .menu{
     display: flex;
@@ -44,6 +45,7 @@ header{
     max-width: 780px;
     line-height: 31px;
     letter-spacing: 0.05em;
+    text-align: center;
 }
 .header__down__container h1{
     margin: 0 auto;
@@ -64,6 +66,7 @@ header{
 .buttom__flex{
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 70px;
 }
 .buttom__head{
     width: 245px;
@@ -72,7 +75,6 @@ header{
     border-radius: 10px;
     font-size: 24px;
     transition: .5s ease;
-    margin-bottom: 70px;
 }
 .buttom__head:hover{
     background-color: #213d5c;
@@ -80,4 +82,64 @@ header{
     border-radius: 10px;
     transition: color .4s ease;
     color: goldenrod;
+}
+
+@media screen and (max-width: 1110px){
+    .header__logo img{
+        width: 60px;
+        height: 60px;
+    }
+    .header__down__container h6{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .header__up__container{
+        display: none;
+    }
+    .header__down__container p{
+        padding-top: 100px;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+    }
+    .header__down__container h1{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 150%;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .header__down__container h6{
+        letter-spacing: 0.05em;
+        margin-top: 60px;
+    }
+    .buttom__head{
+        width: 230px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .header__down__container p{
+        padding-top: 120px;
+        font-size: 14px;
+    }
+    .header__down__container h1{
+        font-size: 36px;
+        margin-top: 30px;
+    }
+    .header__down__container h6{
+        font-size: 14px;
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+    .buttom__flex{
+        padding-bottom: 50px;
+    }
+    .buttom__head{
+        width: 200px;
+        height: 45px;
+    }
 }

@@ -11,16 +11,13 @@
 a {
     color: var(--color-white);
     text-decoration: none;
-    display: flex;
     align-items: center;
     transition: color .4s ease;
 }
 p {
     color: var(--color-white);
     text-decoration: none;
-    align-items: center;
     letter-spacing: 0.05em;
-    text-align: center;
 }
 
 .wrapper {
@@ -61,17 +58,11 @@ p {
     color: var(--color-lightblue);
 }
 
-@media screen and (max-width: 1024px){
-    .text-black {font-size: 16px;}
-    
-    .text-white {font-size: 16px;}
-    
-    .text-grey {font-size: 16px;}
-    
-    .text-blue {font-size: 16px;}
+.text-blue:hover{
+    color: var(--color-white);
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1110px){
     .text-black {font-size: 14px;}
     
     .text-white {font-size: 14px;}
@@ -79,6 +70,56 @@ p {
     .text-grey {font-size: 14px;}
     
     .text-blue {font-size: 14px;}
+}
+
+@media screen and (max-width: 768px){
+    .text-black {font-size: 12px;}
+    
+    .text-white {font-size: 12px;}
+    
+    .text-grey {font-size: 12px;}
+    
+    .text-blue {font-size: 12px;}
+}
+
+@media screen and (max-width: 576px){
+    .text-black {font-size: 11px;}
+    
+    .text-white {font-size: 11px;}
+    
+    .text-grey {font-size: 11px;}
+    
+    .text-blue {font-size: 11px;}
+}
+
+@media screen and (max-width: 480px){
+    .text-black {font-size: 9px;}
+    
+    .text-white {font-size: 9px;}
+    
+    .text-grey {font-size: 9px;}
+    
+    .text-blue {font-size: 9px;}
+}
+
+@media screen and (max-width: 425px){
+    .text-black {font-size: 11px;}
+    
+    .text-white {font-size: 11px;}
+    
+    .text-grey {font-size: 11px;}
+    
+    .text-blue {font-size: 11px;}
+}
+
+@media screen and (max-width: 375px){
+    .text-black {font-size: 9px;}
+    
+    .text-white {font-size: 9px;}
+    
+    .text-grey {font-size: 9px;}
+    
+    .text-blue {font-size: 9px;}
 }
 
 .about__container {

@@ -264,49 +264,94 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.place {
-    background-image: url("../static/images/1920/mapp.svg");
+.partners{
     width: 100%;
-    height: 100%;
+}
+.partners h1{
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.partners__img{
+    display: flex;
+    margin-bottom: 150px;
+    justify-content: space-around;
 }
 
-.place__container {
-    display: flex;
-    flex-direction: column;
+.place{
+    width: 100%;
+    background-image: url("../static/images/1920/mapp.svg");
+    height: 580px;
 }
-
-.place__row {
-    height: 80px;
-    display: flex;
-    flex-direction: column;
+.block_contact{
+    Width:505px;
+    Height:427px;
+    background: rgba(51, 51, 51, 0.8);
+    margin: auto 0;
 }
-
-.place__row:nth-child(2) {
-    width: 500px;
-    height: 420px;
-    background-color: rgba(0, 0, 0, 0.5);
+.wrapper_map{
+    max-width: 337px;
+    margin: 0 auto;
+}
+.wrapper_map img{
+    padding-right: 30px;
+    width: 65px;
+    height: 40px;
+}
+.bmz{
+    padding-top: 34px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 26px;
+}
+.trag_map{
     display: flex;
+    margin-bottom: 26px;
+    align-items: center;
+}
+.trag_map p{
+    max-width: 267px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: inherit;
+}
+.telepfon_map{
+    display: flex;
+    margin-bottom: 26px;
+    align-items: center;
+}
+.telepfon_map p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: inherit;
+}
+.poshta_map{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.poshta_map a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+.btn_k{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    Width:220px;
+    Height:50px;
+    border: 2px solid #FFFFFF;
+    background: rgba(51, 51, 51, 0.0);
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin:  0 auto;
+}
+.btn_k a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
 }

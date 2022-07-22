@@ -41,7 +41,8 @@ header{
 .header__burger{
     display: none;
 }
-.header__down__container p{
+.header__down__container p{    
+    margin: 0 auto;
     padding-top: 145px;
     font-size: 20px;
     max-width: 780px;
@@ -204,17 +205,13 @@ header{
         background: url("../static/images/576/fon.svg");background-size: cover;
     }
     .header__down__container p{
-        padding-top: 120px;
         font-size: 13px;
     }
     .header__down__container h1{
         font-size: 24px;
-        margin-top: 30px;
     }
     .header__down__container h6{
         font-size: 13px;
-        margin-top: 30px;
-        margin-bottom: 70px;
     }
     .btn__container{
         padding-bottom: 45px;

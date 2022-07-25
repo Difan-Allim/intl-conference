@@ -4,11 +4,6 @@ header{
     background-color: #070C20;
     opacity: 0.9;
 }
-.cover{
-    width: 100%;
-    background: url("../static/images/1920/fon.svg");
-    background-size: cover;
-}
 .header__nav{
     display: flex;
     justify-content: space-between;
@@ -26,7 +21,7 @@ header{
 }
 .menu__item a:hover{
     transition: color .4s ease;
-    color: goldenrod;
+    color: var(--color-link-hover);
 }
 .menu__item a b {
     display: inline-block;
@@ -40,6 +35,11 @@ header{
 }
 .header__burger{
     display: none;
+}
+.cover{
+    width: 100%;
+    background: url("../static/images/1920/fon.svg");
+    background-size: cover;
 }
 .cover p{    
     margin: 0 auto;

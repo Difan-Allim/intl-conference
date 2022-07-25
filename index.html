@@ -30,7 +30,7 @@
             </div>
         </div>
     </header>
-<!-- TODO ПЕРЕИМЕНОВАТЬ КОНТЕЙНЕР cover -->
+
     <div class="cover">
         <div class="wrapper">
             <div class="header__burger">
@@ -53,77 +53,62 @@
             </div>
         </div>
     </div>
-<!-- TODO ГАВА ДЕЛАЕТ БЛОК about -->
+
     <div class="about">
         <div class="wrapper">
-            <div class="about__row">
-                <div class="about__col">
-                    <img src="static/images/1920/box1.svg">
+           <div class="about-container">
+                <img src="../static/images/1920/box1.svg" alt="" class="about__img">
+                <div class="about-info">
+                    <h4 class="text-black">О конференции</h4>
+                    <p class="text-black about-info__title">Уважаемые коллеги!</p>
+                    <p class="text-black about-info__text-pc">Приглашаем Вас принять участие в III Международной научно-практической конференции
+                        "Программная инженерия: методы и технологии разработки информационно-вычислительных систем" (ПИИВС-2020), 
+                        которая состоится c 25 по 26 ноября 2020 г. на базе кафедры программной инженерии факультета компьютерных наук
+                        и технологий Государственного образовательного учреждения высшего профессионального образования «Донецкий национальный технический университет»,
+                        г.Донецк, Донецкая Народная Республика.</p>
+                    <p class="text-black about-info__text-mob">Приглашаем Вас принять участие в III Международной научно-практической конференции
+                        "Программная инженерия: методы и технологии разработки информационно  - вычислительных систем" (ПИИВС-2020), 
+                       которая состоится c 25 по 26 ноября 2020 г. на базе кафедры программной инженерии</p>
+                    <a href="#" class="arrow">⟶</a>
                 </div>
-                <div class="about__col">
-                    <h1 class="text-black">О конференции</h1>
-                    <h4 class="text-black">Уважаемые коллеги!</h4>
-                    <p class="text-black">Приглашаем Вас принять участие в III Международной научно-практической конференции
-                        "Программная инженерия: методы и технологии разработки информационно-вычислительных систем"
-                        (ПИИВС-2020), которая состоится c 25 по 26 ноября 2020 г. на базе кафедры программной инженерии
-                        факультета компьютерных наук и технологий Государственного образовательного учреждения высшего
-                        профессионального образования «Донецкий национальный технический университет», г.Донецк, Донецкая
-                        Народная Республика.</p>
-                    <a href="index.html" class="arrow">⟶</a>
+           </div>
+           <div class="about-container">
+                <div class="about-content">
+                    <img src="../static/images/1920/Doc.svg" alt="" class="about-content__img">
+                    <p class="about-content__titel">Приглашение</p>
+                    <p class="about-content__text">Приглашаем принять участие
+                        в III Международной научно - практической конференции, которая пройдет в период с 25 по 26 ноября
+                        2020 г.
+                    </p>
                 </div>
-            </div>
-            <div class="about__row">
-                <div class="about__col">
-                    <div class="about__col__row">
-                        <img src="static/images/1920/Doc.svg">
-                    </div>
-                    <div class="about__col__row">
-                        <p class="text-black text-bold text-big">Приглашение</p>
-                    </div>
-                    <div class="about__col__row">
-                        <p class="text-black">Приглашаем принять участие 
-                            в III Международной научно - практической конференции, которая пройдет в период с 25 по 26 ноября 2020 г.</p>
-                    </div>
+                <div class="about-content">
+                    <img src="../static/images/1920/DocP.svg" alt="" class="about-content__img">
+                    <p class="about-content__titel">Прием докладов</p>
+                    <p class="about-content__text">Для отправки доклада, нужно произвести регистрацию на сайте</p>
                 </div>
-                <div class="about__col">
-                    <div class="about__col__row">
-                        <img src="static/images/1920/DocP.svg">
-                    </div>
-                    <div class="about__col__row">
-                        <p class="text-black text-bold text-big">Прием докладов</p>
-                    </div>
-                    <div class="about__col__row">
-                        <p class="text-black">Для отправки доклада, нужно произвести регистрацию на сайте</p>
-                    </div>
+                <div class="about-content">
+                    <img src="../static/images/1920/DocH.svg" alt="" class="about-content__img">
+                    <p class="about-content__titel">Шаблон доклада</p>
+                    <p class="about-content__text">Полное объяснение и руководство по оформлению докладов (статей) для научно-практической
+                        конференции
+                    </p>
                 </div>
-                <div class="about__col">
-                    <div class="about__col__row">
-                        <img src="static/images/1920/DocH.svg">
-                    </div>
-                    <div class="about__col__row">
-                        <p class="text-black text-bold text-big">Шаблон доклада</p>
-                    </div>
-                    <div class="about__col__row">
-                        <p class="text-black">Полное объяснение и руководство по оформлению докладов (статей) для научно-практической конференции</p>
-                    </div>
-                </div>
-            </div>
+           </div>
         </div>
     </div>
 
     <div class="news">
         <div class="wrapper">
-            <p class="news__title">Новости о конференции</p>
-            <!-- Auto gener Block NEWS TODO ПЕРЕИМЕНОВАТЬ КОНТЕЙНЕР boxs__news-->
-            <div class="boxs__news"> <!-- news__section -->
-                <div class="ib"> <!-- section__article -->
-                    <div class="data"> <!-- article__date -->
-                        <p>25.11.2020</p>
+            <p class="news__title text-white">Новости о конференции</p>
+            <div class="news__section">
+                <div class="section__article">
+                    <div class="article__date">
+                        <p class="text-white">25.11.2020</p>
                     </div>
-                    <div class="ibz"> <!-- article__content -->
-                        <p class="zi">Сборники научных трудов ПИИВС-2020</p> <!-- article__headline -->
-                        <div class="content_inf"> <!-- article__text -->
-                            <p class="text_inf">Уважаемые участники!<br>
+                    <div class="article__content">
+                        <p class="article__headline text-white">Сборники научных трудов ПИИВС-2020</p>
+                        <div class="article__text">
+                            <p class="text__inf text-white">Уважаемые участники!<br>
                                 Для вас доступны сборники III международной научно-практической конференции ПИИВС-2020.
                                 Сборники находятся на правой информационной панели нашего сайта "архив сборников
                                 конференции ПИИВС" или доступны по ссылкам ПИИВС-2020 и ПИИВС-2020 студ секции.
@@ -134,101 +119,105 @@
                         </div>
                     </div>
                 </div>
-                <div class="ib">
-                    <div class="data">
-                        <p>25.11.2020</p>
+                <div class="section__article">
+                    <div class="article__date">
+                        <p class="text-white">25.11.2020</p>
                     </div>
-                    <div class="ibz">
-                        <p class="zi">Изменилась программа</p>
-                        <div class="content_inf">
-                            <p class="text_inf">В программе конференции произошли изменения: был добавлен доклад
+                    <div class="article__content">
+                        <p class="article__headline text-white">Изменилась программа</p>
+                        <div class="article__text">
+                            <p class="text__inf text-white">В программе конференции произошли изменения: был добавлен доклад
                                 <b>"АНАЛОГИЯ МЕЖДУ ТРАНСПОРТНЫМ И СЕТЕВЫМ ТРАФИКОМ"</b>.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="ib">
-                    <div class="data">
-                        <p>24.11.2020</p>
+                <div class="section__article">
+                    <div class="article__date">
+                        <p class="text-white">24.11.2020</p>
                     </div>
-                    <div class="ibz">
-                        <p class="zi">Сборники научных трудов ПИИВС-2020</p>
-                        <div class="content_inf">
-                            <p class="text_inf">Уважаемые участники конференции! <br>
+                    <div class="article__content">
+                        <p class="article__headline text-white">Сборники научных трудов ПИИВС-2020</p>
+                        <div class="article__text">
+                            <p class="text__inf text-white">Уважаемые участники конференции! <br>
                                 В среду, 25.11.20, в 11-00, начинается работа 3-й международной научной конференции
                                 ПИИВС-2020.
                                 Работа конференции будет проходить в дистанционном режиме с использованием
                                 интернет-конференции Zoom.
                                 <br> <br>
                                 Программа конференции доступна <a href="">по ссылке <img
-                                        src="../static/images/1920/Arrow_inf.svg" alt="" style="display: revert;"> </a>
+                                        src="Img/1920/Arrow_inf.svg" alt="" style="display: revert;"> </a>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <button class="btn" data-target="">Перейти в новостную ленту</button>
-        </div>
-    </div>
-
-    <div class="content_boxthree">
-        <div class="boxthree">
-            <div class="text_infoBox3">
-                <p class="b3tz">Архив сборников конференции ПИИВС</p>
-                <p class="b3ti">Текст для архива сборников, Текст для архива сборников, Текст для архива сборников,
-                    Текст для архива сборников, Текст для архива сборников, Текст для архива сборников, Текст для
-                    архива
-                    сборников, Текст для архива сборников, Текст для архива сборников, Текст для архива сборников,
-                    Текст
-                    для архива сборников, Текст для архива сборников, Текст для архива сборников,</p>
-                <a href="index.html" class="arrow">⟶</a>
-            </div>
-            <img src="../static/images/1920/box3.svg" alt="" class="boxthree_imgInfo">
-        </div>
-        <div class="box_org">
-            <p class="b3tz2">Организационный комитет</p>
-            <div class="box_orgcom">
-                <div class="orgcom">
-                    <a href="index.html"><img src="../static/images/1920/org1.svg" alt=""></a>
-                    <p class="orgdolj">Председатель:</p>
-                    <p class="orginf">Аноприенко А.Я., к.т.н., проф., ректор ДОННТУ</p>
-                </div>
-                <div class="orgcom">
-                    <a href="index.html"><img src="../static/images/1920/org2.svg" alt=""></a>
-                    <p class="orgdolj">Заместитель председателя:</p>
-                    <p class="orginf">Борщевский С.В., д.т.н., проф., проректор по научной работе</p>
-                </div>
-                <div class="orgcom">
-                    <a href="index.html"><img src="../static/images/1920/org3.svg" alt=""></a>
-                    <p class="orgdolj">Заместитель председателя:</p>
-                    <p class="orginf">Николаенко Д.В., к.т.н., декан факультета интеллектуальных систем и программирования</p>
-                </div>
-                <div class="orgcom">
-                    <a href="index.html"><img src="../static/images/1920/org4.svg" alt=""></a>
-                    <p class="orgdolj">Заместители председателя:</p>
-                    <p class="orginf">Кожухов И.Б., д.ф.-м.н., проф. НИУ МИЭТ, г.Москва</p>
-                </div>
-                <div class="orgcom">
-                    <a href="index.html"><img src="../static/images/1920/org5.svg" alt=""></a>
-                    <p class="orgdolj">Заместители председателя:</p>
-                    <p class="orginf">Зори С.А., д.т.н., зав. кафедрой программной инженерии им. Л.П. Фельдмана</p>
-                </div>
-                <div class="orgcom">
-                    <a href="index.html"><img src="../static/images/1920/org6.svg" alt=""></a>
-                    <p class="orgdolj">Заместители председателя:</p>
-                    <p class="orginf">Мальчева Р.В., к.т.н., зам. декана по научной работе</p>
-                </div>
+            <div class="news__btn">
+                <button class="btn" data-target="">Перейти в новостную ленту</button>
             </div>
         </div>
     </div>
 
-    <div class="content_boxfour">
-        <div class="boxfour">
-            <div class="bloc_S">
-                <p class="b4tz">Члены оргкомитета:</p>
-                <div id="element_o">
+
+    <div class="archive-committee">
+        <div class="wrapper">
+            <div class="archive">
+                <img src="../static/images/1920/box3.svg" alt="" class="">
+                <div class="archive__info">
+                    <h4 class="text-black">Архив сборников конференции ПИИВС</h4>
+                    <p class="text-black">Текст для архива сборников, Текст для архива сборников, Текст для архива сборников,
+                        Текст для архива сборников, Текст для архива сборников, Текст для архива сборников, Текст для архива сборников,
+                        Текст для архива сборников, Текст для архива сборников, Текст для архива сборников, Текст для архива сборников,
+                        Текст для архива сборников, Текст для архива сборников,</p>
+                    <a href="#" class="arrow">⟶</a>
+                </div>
+           </div>
+            <div class="committee">
+                <p class="committee__title">Организационный комитет</p>
+                <div class="box_orgcom">
+                    <div class="orgcom">
+                        <a href="index.html"><img src="../static/images/1920/org1.svg" alt="" class="orgcom__img"></a>
+                        <p class="orgcom__job">Председатель:</p>
+                        <p class="orgcom__text">Аноприенко А.Я., к.т.н., проф., ректор ДОННТУ</p>
+                    </div>
+                    <div class="orgcom">
+                        <a href="index.html"><img src="../static/images/1920/org2.svg" alt="" class="orgcom__img"></a>
+                        <p class="orgcom__job">Заместитель председателя:</p>
+                        <p class="orgcom__text">Борщевский С.В., д.т.н., проф., проректор по научной работе</p>
+                    </div>
+                    <div class="orgcom">
+                        <a href="index.html"><img src="../static/images/1920/org3.svg" alt="" class="orgcom__img"></a>
+                        <p class="orgcom__job">Заместитель председателя:</p>
+                        <p class="orgcom__text">Николаенко Д.В., к.т.н., декан факультета интеллектуальных систем и программирования</p>
+                    </div>
+                    <div class="orgcom">
+                        <a href="index.html"><img src="../static/images/1920/org4.svg" alt="" class="orgcom__img"></a>
+                        <p class="orgcom__job">Заместители председателя:</p>
+                        <p class="orgcom__text">Кожухов И.Б., д.ф.-м.н., проф. НИУ МИЭТ, г.Москва</p>
+                    </div>
+                    <div class="orgcom">
+                        <a href="index.html"><img src="../static/images/1920/org5.svg" alt="" class="orgcom__img"></a>
+                        <p class="orgcom__job">Заместители председателя:</p>
+                        <p class="orgcom__text">Зори С.А., д.т.н., зав. кафедрой программной инженерии им. Л.П. Фельдмана</p>
+                    </div>
+                    <div class="orgcom">
+                        <a href="index.html"><img src="../static/images/1920/org6.svg" alt="" class="orgcom__img"></a>
+                        <p class="orgcom__job">Заместители председателя:</p>
+                        <p class="orgcom__text">Мальчева Р.В., к.т.н., зам. декана по научной работе</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="members">
+        <div class="members-container wrapper">
+            <div class="inf-block">
+                <p class="inf-block__title text-white">Члены оргкомитета:</p>
+                <div class="element_o">
                     <div class="overflow">
-                    <p class="b4tt">
+                    <p class="overflow__text text-white">
                         Федяев О.И., к.т.н., проф. кафедры программной инженерии им. Л.П. Фельдмана<br>
                         Григорьев А.В., к.т.н., проф. кафедры программной инженерии им. Л.П. Фельдмана<br>
                         Криводубский О.А., д.т.н., проф. кафедры программной инженерии им. Л.П. Фельдмана<br>
@@ -241,12 +230,12 @@
                     </div>
                 </div>
             </div>
-            <div class="hr"></div>
-            <div class="bloc_S">
-                <p class="b4tz">Программный комитет конференции</p>
-                <div id="element_o">
+            <div class="border"></div>
+            <div class="inf-block">
+                <p class="inf-block__title text-white">Программный комитет конференции</p>
+                <div class="element_o">
                     <div class="overflow">
-                    <p class="b4tt">Аноприенко А.Я., к.т.н., проф., зав. каф. компьютерной инженерии ДонНТУ<br>
+                    <p class="overflow__text text-white">Аноприенко А.Я., к.т.н., проф., зав. каф. компьютерной инженерии ДонНТУ<br>
                         Гольцев А.С., д.ф.-м.н., проф., зав каф. прикладной механики и компьютерных технологий ДонНУ<br>
                         Григорьев А.В., к.т.н., проф. каф. программной инженерии ДонНТУ<br>
                         Завадская Т.В., к.т.н., доц. каф. компьютерной инженерии<br>
@@ -282,25 +271,25 @@
 
     <div class="place">
         <div class="wrapper">
-            <div class="block_contact">
-                <div class="wrapper_map">
-                    <p class="bmz">Место проведения</p>
-                    <div class="trag_map">
-                        <img src="../static/images/1920/Map.svg" alt="">
-                        <p>83001, г. Донецк, ул. Артема, 58,
+            <div class="block-contact">
+                <div class="map-content">
+                    <p class="map-content__title text-white">Место проведения</p>
+                    <div class="contact">
+                        <img src="../static/images/1920/Map.svg" alt="" class="contact__img">
+                        <p class="text-white contact__text">83001, г. Донецк, ул. Артема, 58,
                             ГОУВПО «ДонНТУ»,
                             ФКНТ, 5 учебный корпус,
                             кафедра "ПИ", ком. 425.</p>
                     </div>
-                    <div class="telepfon_map">
-                        <img src="../static/images/1920/telepfon.svg" alt="">
-                        <p>+38 (062) 301-07-09</p>
+                    <div class="contact">
+                        <img src="../static/images/1920/telepfon.svg" alt="" class="contact__img">
+                        <p class="text-white contact__text">+38 (062) 301-07-09</p>
                     </div>
-                    <div class="poshta_map">
-                        <img src="../static/images/1920/Poshta.svg" alt="">
-                        <a href="https://donntu.org/">donntu.info@mail.ru</a>
+                    <div class="contact">
+                        <img src="../static/images/1920/Poshta.svg" alt="" class="contact__img">
+                        <a href="https://donntu.org/" class="text-white contact__text">donntu.info@mail.ru</a>
                     </div>
-                    <button class="btn_k"><a href="#">Контакты</a></button>
+                    <div class="news__btn"><button class="btn_place">Контакты</button></div>
                 </div>
             </div>
         </div>

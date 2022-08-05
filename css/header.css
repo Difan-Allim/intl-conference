@@ -173,7 +173,7 @@ body._mob .menu__item.active .menu__arrow{
 }
 @media screen and (max-width: 768px){
     header{
-        position: fixed;
+        position: absolute;
         width: 100%;
         background-color: initial;
         opacity: 1;

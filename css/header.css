@@ -1,41 +1,109 @@
 header{
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     background-color: #070C20;
     opacity: 0.9;
+    z-index: 5;
 }
-.header__nav{
+.header-nav{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    min-height: 70px;
+}
+.header-burger{
+    display: none;
 }
 .header__logo{
-    padding: 5px 0px 5px 0px;
+    padding: 5px 0;
 }
-.menu{
-    display: flex;
+.menu__item{
+    position: relative;
+    margin:0 0 0 35px;
 }
-.menu__item {
-    display: inline-block;
-    margin-right: 30px;
+.menu__sub-list{
+    position: absolute;
+    top: 100%;
+    background-color: #070C20;
+    padding: 15px;
+    min-width: 240px;
 }
-.menu__item a:hover{
+.menu__sub-item{
+    margin: 0 0 10px 0;
+}
+.menu__sub-item:last-child{
+    margin: 0px;
+}
+.menu__item__link:hover{
+    text-decoration: underline;
     transition: color .4s ease;
     color: var(--color-link-hover);
 }
-.menu__item a b {
-    display: inline-block;
+.menu__item:hover{
+    transition: color .4s ease;
+    color: var(--color-link-hover);
+}
+.menu__arrow{
+    display:none;
+}
+/*______________________ MENU ______________________*/
+body._pc .menu__item:hover .menu__sub-list{
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0px, 0px);
+    pointer-events: all;
+}
+body._mob .menu__item{
+    display: flex;
+    align-items: center;
+}
+body._mob .menu__item__link{
+    flex: 1 1 auto;
+}
+body._mob .menu__arrow {
+    display: block;
     width: 0;
     height: 0;
-    margin-left: 2px;
-    vertical-align: middle;
-    border-top: 4px dashed;
+    margin-left: 5px;
+    transition: transform 0.3s ease 0s;
+    border-top: 8px dashed;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;
 }
-.header__burger{
-    display: none;
+body._mob .menu__item.active .menu__sub-list{
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0px, 0px);
+    pointer-events: all;
 }
+body._mob .menu__item.active .menu__arrow{
+    transform: rotate(-180deg);
+}
+
+/*______________________ MENU ______________________*/
+@media screen and (min-width: 769px){
+    .menu__list{
+        display: flex;
+        align-items: center;
+    }
+    .menu__item{
+        padding: 10px 0;
+    }
+    .menu__sub-list{
+        transform: translate(0px, 10%);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease 0s;
+        pointer-events: none;
+    }
+}
+
+
+
+
+/*______________________ BOX_cover ______________________*/
 .cover{
     width: 100%;
     background: url("../static/images/1920/fon.svg");
@@ -80,11 +148,11 @@ header{
         font-size: 18px;
     }
 }
-
 @media screen and (max-width: 992px){
-    header{
-        display: none;
+    .menu__item{
+        margin:0 0 0 25px;
     }
+
     .cover{
         background: url("../static/images/1024/fon.svg");background-size: cover;
     }
@@ -102,15 +170,28 @@ header{
     .cover h6{
         margin-top: 60px;
     }
-    .header__burger{
+}
+@media screen and (max-width: 768px){
+    header{
+        position: fixed;
+        width: 100%;
+        background-color: initial;
+        opacity: 1;
+    }
+    .header__logo{
+        display: none;
+    }
+    .header-burger{
         display: block;
         position: absolute;
         width: 30px;
         height: 20px;
         top: 40px;
         left: 40px;
+        z-index: 3;
+        cursor: pointer;
     }
-    .header__burger__item{
+    .header-burger__item{
         background-color: white;
         position: absolute;
         left: 0;
@@ -119,8 +200,8 @@ header{
         top: 9px;
         transition: all 0.6s ease 0s;
     }
-    .header__burger::before,
-    .header__burger::after{
+    .header-burger::before,
+    .header-burger::after{
         content: '';
         background-color: white;
         position: absolute;
@@ -129,28 +210,75 @@ header{
         left: 0;
         transition: all 0.6s ease 0s;
     }
-    .header__burger::before{
+    .header-burger::before{
         right: 0;
     }
-    .header__burger::after{
+    .header-burger::after{
         bottom: 0;
         width: 40%;
     }
-    .header__burger.active::before{
+    .header-burger.active{
+        z-index: 3;
+        left: inherit;
+        right: 40px;
+    }
+    .header-burger__item.active{
+        display: none;
+    }
+    .header-burger.active::before{
         transform: rotate(45deg);
         top: 9px;
         width: 100%;
-        background-color: black;
+        background-color: white;
     }
-    .header__burger.active::after{
+    .header-burger.active::after{
         transform: rotate(-45deg);
         bottom: 9px;
         width: 100%;
-        background-color: black;
+        background-color: white;
     }
-}
+    .header__menu{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: #132131;
+        padding: 50px 30px 30px 30px;
+        transition: left 0.3s ease 0s;
+        overflow: auto;
+    }
+    .header__menu.active{
+        left: 0;
+    }
+    .menu__item{
+        flex-wrap: wrap;
+        margin: 0 0 30px 0;
+    }
+    .menu__item:last-child{
+        margin-bottom: 0;
+    }
+    .menu__item{
+        font-size: 24px;
+    }
+    .menu__item.active .menu__sub-list{
+        display: block;
+    }
+    .menu__item__link{
+        font-size: 24px;
+    }
+    .menu__sub-list a{
+        font-size: 20px;
+    }
+    .menu__sub-list{
+        position: relative;
+        flex: 1 1 100%;
+        margin-top: 15px;
+        display: none;
+        background-color: #132131;
+    }
 
-@media screen and (max-width: 767px){
+
     .cover{
         background: url("../static/images/768/fon.svg");background-size: cover;
     }
@@ -179,6 +307,9 @@ header{
 }
 
 @media screen and (max-width: 575px){
+    .header-burger{
+        left: 20px;
+    }
     .cover{
         background: url("../static/images/576/fon.svg");background-size: cover;
     }
@@ -201,12 +332,12 @@ header{
     .btn:last-child{
         padding: 7px 60px;
     }
-    .header__burger{
-        left: 20px;
-    }
 }
 
 @media screen and (max-width: 479px){
+    .header-burger{
+        top: 20px;
+    }
     .cover p{
         padding-top: 110px;
         font-size: 13px;
@@ -227,9 +358,6 @@ header{
     .btn{
         font-size: 12px;
         margin-bottom: 30px;
-    }
-    .header__burger{
-        top: 20px;
     }
 }
 

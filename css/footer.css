@@ -180,9 +180,6 @@ footer {
     .footer__col__item3{
         grid-area: footer__col__item3;
     }
-    .footer__container:last-child {
-        margin-top: 30px;
-    }
 }
 @media screen and (max-width: 320px){
     footer {
